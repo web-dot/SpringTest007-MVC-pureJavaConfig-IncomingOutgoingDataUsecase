@@ -11,7 +11,7 @@ public class MessageDBDAOImpl implements MessageDAO {
 	
 	public String getAJoke() {
 		System.out.println("in MDBDAOImpl->getAJoke()");
-		return "One day, there...";
+		return "One day, obbanu iddanu...";
 	}
 
 }

@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome to Development</h1>
-	<a href="showJoke">Click to see joke of today!</a><br>
-	<a href="openRegisterView">Click to register</a>
+	<h1>Success</h1>
 </body>
 </html>

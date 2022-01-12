@@ -19,7 +19,7 @@ public class MessageService implements MsgService {
 	
 	public String getJoke() {
 		System.out.println("in MSImpl->getJoke()");
-		return null;
+		return dao.getAJoke();
 	}
 
 	public Class<? extends Annotation> annotationType() {
