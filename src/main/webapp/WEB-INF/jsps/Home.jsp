@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Welcome to Development</h1>
-	<a href="">Click to see joke of today!</a>
+	<a href="">Click to see joke of today!</a><br>
 	<a href="">Click to register</a>
 </body>
 </html>

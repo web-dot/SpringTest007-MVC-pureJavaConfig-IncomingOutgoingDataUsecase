@@ -5,8 +5,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import com.spring.service.MessageService;
+import com.spring.service.MsgService;
+
 @Configuration
-@ComponentScan({"com.spring.config"})
+@ComponentScan({"com.spring.config","com.spring.service", "com.spring.dao"})
 public class AppConfig {
 
 	@Bean
@@ -16,4 +19,5 @@ public class AppConfig {
 		vr.setSuffix(".jsp");
 		return vr;
 	}
+	
 }
